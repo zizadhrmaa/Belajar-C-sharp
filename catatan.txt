@@ -1,2 +1,5 @@
 == Set-up dan bikin Folder dalam folder root ==
 dotnet new console -o <nama-folder> 
+
+== Cara run ==
+dotnet run --project <nama-folder>
