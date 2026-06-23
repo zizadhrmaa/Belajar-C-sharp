@@ -1,6 +1,11 @@
 ﻿// Variables
-int Angka = 5;
-Angka = 27;
+// Multiples Variables
+Console.WriteLine("== Ubah Value Variable ==");
+int Angka1 = 5, Angka2 = 10, Angka3;
+Console.WriteLine(Angka1);
+Angka1 = 27;
+Console.WriteLine(Angka1);
+Angka3 = 12;
 string Namaku = "Ziza";
 char Huruf = 'A';
 bool UdahMamLum = false;
@@ -8,8 +13,8 @@ double DollarToRupiah = 17811.10;
 decimal RupiahToDollar = 0.000056m;
 
 Console.WriteLine("== Section Variables == ");
-Console.WriteLine(Angka);
-Console.WriteLine(Namaku);
+Console.WriteLine(Angka1 + Angka2 + Angka3);
+Console.WriteLine("Hai " + Namaku);
 Console.WriteLine(Huruf);
 Console.WriteLine(UdahMamLum);
 Console.WriteLine(DollarToRupiah);
