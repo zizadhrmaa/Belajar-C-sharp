@@ -29,3 +29,12 @@ const double Pi = 3.141592653589793;
 // gaboleh deklarasi konstanta tapi assign value
 Console.WriteLine("== Section Constants == ");
 Console.WriteLine(Pi);
+
+// Identifiers
+/* 
+Names can contain letters, digits and the underscore character (_)
+Names must begin with a letter or underscore
+Names should start with a lowercase letter, and cannot contain whitespace
+Names are case-sensitive ("myVar" and "myvar" are different variables)
+Reserved words (like C# keywords, such as int or double) cannot be used as names
+*/
