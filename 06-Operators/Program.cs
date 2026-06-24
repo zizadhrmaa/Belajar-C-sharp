@@ -52,8 +52,9 @@ Console.Write(enter);
 
 Console.WriteLine("Comparison");
 Console.WriteLine(indentasi1 + "a = " + a + " | b = " + b + " | c = " + c + " | d = " + d);
+Console.Write(enter);
 Console.WriteLine(indentasi1 + "Operasi  | Hasil");
-Console.WriteLine(indentasi1 + "----------------");
+Console.WriteLine(indentasi1 + "------------------");
 Console.WriteLine(indentasi1 + "a == b   | " + Convert.ToBoolean(a == b));
 Console.WriteLine(indentasi1 + "c != d   | " + Convert.ToBoolean(c != d));
 Console.WriteLine(indentasi1 + "a < 10   | " + Convert.ToBoolean(a < 10));
@@ -65,8 +66,9 @@ Console.Write(enter);
 
 Console.WriteLine("Logical");
 Console.WriteLine(indentasi1 + "a = " + a + " | b = " + b + " | c = " + c + " | d = " + d);
+Console.Write(enter);
 Console.WriteLine(indentasi1 + "Operasi           | Hasil");
-Console.WriteLine(indentasi1 + "----------------");
+Console.WriteLine(indentasi1 + "-------------------------");
 Console.WriteLine(indentasi1 + "a == b && c != d  | " + Convert.ToBoolean(a == b && c != d));
 Console.WriteLine(indentasi1 + "a < 10 || b > 10  | " + Convert.ToBoolean(a < 10 || b > 10));
 Console.WriteLine(indentasi1 + "!(c <= 5)         | " + Convert.ToBoolean(!(c <= 5)));
