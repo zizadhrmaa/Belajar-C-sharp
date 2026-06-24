@@ -19,6 +19,7 @@ d--;
 Console.WriteLine(indentasi1 + "d-- = " + Convert.ToInt32(d));
 
 Console.Write(enter);
+
 Console.WriteLine("Assignment");
 Console.WriteLine(indentasi1 + "a = " + a + " | b = " + b);
 Console.Write(enter);
@@ -46,3 +47,16 @@ a<<=2;
 Console.WriteLine(indentasi1 + "a <<= 2  | " + a);
 a>>=1;
 Console.WriteLine(indentasi1 + "a >>= 1  | " + a);
+
+Console.Write(enter);
+
+Console.WriteLine("Comparison");
+Console.WriteLine(indentasi1 + "a = " + a + " | b = " + b + " | c = " + c + " | d = " + d);
+Console.WriteLine(indentasi1 + "Operasi  | Hasil");
+Console.WriteLine(indentasi1 + "----------------");
+Console.WriteLine(indentasi1 + "a == b   | " + Convert.ToBoolean(a == b));
+Console.WriteLine(indentasi1 + "c != d   | " + Convert.ToBoolean(c != d));
+Console.WriteLine(indentasi1 + "a < 10   | " + Convert.ToBoolean(a < 10));
+Console.WriteLine(indentasi1 + "b > 10   | " + Convert.ToBoolean(b > 10));
+Console.WriteLine(indentasi1 + "c <= 5   | " + Convert.ToBoolean(c <= 5));
+Console.WriteLine(indentasi1 + "d >= 5   | " + Convert.ToBoolean(d >= 5));
