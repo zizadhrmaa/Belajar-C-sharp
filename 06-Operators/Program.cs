@@ -60,3 +60,13 @@ Console.WriteLine(indentasi1 + "a < 10   | " + Convert.ToBoolean(a < 10));
 Console.WriteLine(indentasi1 + "b > 10   | " + Convert.ToBoolean(b > 10));
 Console.WriteLine(indentasi1 + "c <= 5   | " + Convert.ToBoolean(c <= 5));
 Console.WriteLine(indentasi1 + "d >= 5   | " + Convert.ToBoolean(d >= 5));
+
+Console.Write(enter);
+
+Console.WriteLine("Logical");
+Console.WriteLine(indentasi1 + "a = " + a + " | b = " + b + " | c = " + c + " | d = " + d);
+Console.WriteLine(indentasi1 + "Operasi           | Hasil");
+Console.WriteLine(indentasi1 + "----------------");
+Console.WriteLine(indentasi1 + "a == b && c != d  | " + Convert.ToBoolean(a == b && c != d));
+Console.WriteLine(indentasi1 + "a < 10 || b > 10  | " + Convert.ToBoolean(a < 10 || b > 10));
+Console.WriteLine(indentasi1 + "!(c <= 5)         | " + Convert.ToBoolean(!(c <= 5)));
