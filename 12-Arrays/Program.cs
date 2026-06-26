@@ -1,6 +1,21 @@
-﻿//using System;
-//using System.Linq;
-
+﻿/*
+//System.Linq Namespace
+using System;
+using System.Linq;
+namespace  App
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] myNumbers = {5, 1, 8, 9};
+            Console.WriteLine(myNumbers.Max());  // returns the largest value
+            Console.WriteLine(myNumbers.Min());  // returns the smallest value
+            Console.WriteLine(myNumbers.Sum());  // returns the sum of elements
+        }
+    }
+}
+*/
 Console.WriteLine("Arrays");
 Console.WriteLine("Create Arrays");
 int[] Angka1 = {10, 20, 30, 40, 50};
@@ -61,19 +76,39 @@ Console.WriteLine("  Max: " + myNumbers.Max());  // returns the largest value
 Console.WriteLine("  Min: " + myNumbers.Min());  // returns the smallest value
 Console.WriteLine("  Sum: " + myNumbers.Sum());  // returns the sum of elements
 
-/*
-//System.Linq Namespace
-namespace  App
+Console.WriteLine("");
+Console.WriteLine("Multidimensional Array / Array of Arrays");
+int[,] duadimensi = {{4, 5, 6}, {1, 2, 3}};
+foreach (int apa in duadimensi) {
+    Console.Write("  ");
+    Console.WriteLine(apa);
+} //kurang bagus
+Console.WriteLine("");
+Console.WriteLine("Asli: ");
+for (int y = 0; y < duadimensi.GetLength(0); y++)
 {
-    class Program
+    Console.Write("  | ");
+    for (int z = 0; z < duadimensi.GetLength(1); z++)
     {
-        static void Main(string[] args)
-        {
-            int[] myNumbers = {5, 1, 8, 9};
-            Console.WriteLine(myNumbers.Max());  // returns the largest value
-            Console.WriteLine(myNumbers.Min());  // returns the smallest value
-            Console.WriteLine(myNumbers.Sum());  // returns the sum of elements
-        }
+        Console.Write(duadimensi[y, z] + " ");
     }
+    Console.WriteLine("|");
+
 }
-*/
+
+Console.WriteLine("");
+Console.WriteLine("Change duadimensi[0,2] jadi 5");
+duadimensi[0,2] = 5;
+for (int y = 0; y < duadimensi.GetLength(0); y++)
+{
+    Console.Write("  | ");
+    for (int z = 0; z < duadimensi.GetLength(1); z++)
+    {
+        Console.Write(duadimensi[y, z] + " ");
+    }
+    Console.WriteLine("|");
+
+}
+
+Console.WriteLine("");
+Console.WriteLine("duadimensi[1,1] = " + duadimensi[1,1]);
