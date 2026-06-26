@@ -1,4 +1,7 @@
-﻿Console.WriteLine("Arrays");
+﻿//using System;
+//using System.Linq;
+
+Console.WriteLine("Arrays");
 Console.WriteLine("Create Arrays");
 int[] Angka1 = {10, 20, 30, 40, 50};
 Console.WriteLine("  " + Angka1[0]);
@@ -28,3 +31,49 @@ foreach (int i in Angka1) {
     Console.Write("  ");
     Console.WriteLine(i);
 }
+
+Console.WriteLine("");
+Console.WriteLine("Sort An Array");
+string[] b4 = { "beauty", "brain", "behaviour", "brave" };
+Console.WriteLine("Asli: ");
+foreach (string nilai in b4) {
+    Console.Write("  ");
+    Console.WriteLine(nilai);
+}
+Console.WriteLine("Hasil sort: ");
+Array.Sort(b4);
+foreach (string nilai in b4) {
+    Console.Write("  ");
+    Console.WriteLine(nilai);
+}
+
+
+Console.WriteLine("");
+Console.WriteLine("Max, Min, and Sum");
+int[] myNumbers = {5, 1, 8, 9};
+Console.Write("  MyNumbers = {");
+foreach (int number in myNumbers) {
+    if  (number == myNumbers[myNumbers.Length-1]) {Console.Write(number + "}");}
+    else {Console.Write(number + ", ");}
+}
+Console.WriteLine("");
+Console.WriteLine("  Max: " + myNumbers.Max());  // returns the largest value
+Console.WriteLine("  Min: " + myNumbers.Min());  // returns the smallest value
+Console.WriteLine("  Sum: " + myNumbers.Sum());  // returns the sum of elements
+
+/*
+//System.Linq Namespace
+namespace  App
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] myNumbers = {5, 1, 8, 9};
+            Console.WriteLine(myNumbers.Max());  // returns the largest value
+            Console.WriteLine(myNumbers.Min());  // returns the smallest value
+            Console.WriteLine(myNumbers.Sum());  // returns the sum of elements
+        }
+    }
+}
+*/
