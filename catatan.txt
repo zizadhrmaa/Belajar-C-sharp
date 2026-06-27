@@ -1,5 +1,26 @@
+== Bikin file solution ==
+dotnet new sln -n <nama_file>
+
 == Set-up dan bikin Folder dalam folder root ==
 dotnet new console -o <nama-folder> 
 
+== Tambahkan ke solution ==
+dotnet sln add <nama_folder>/<nama_folder>.csproj
+
+
 == Cara run ==
 dotnet run --project <nama-folder>
+
+01-ClassesAndObjects
+02-MultipleObjects
+03-ClassMembers
+04-Constructors
+05-AccessModifiers
+06-Properties
+07-Inheritance
+08-Polymorphism
+09-Abstraction
+10-Interface
+11-Enums
+12-Files
+13-Exceptions
