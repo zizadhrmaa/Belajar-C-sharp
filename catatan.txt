@@ -10,6 +10,7 @@ dotnet sln add <nama_folder>/<nama_folder>.csproj
 
 == Cara run ==
 dotnet run --project <nama-folder>
+dotnet run 
 
 01-ClassesAndObjects
 02-MultipleObjects
